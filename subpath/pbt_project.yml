@@ -1,0 +1,81 @@
+name: ahmed.oberbrunner
+description: reciprocal
+version: 0.0.1
+author: vr5wk3fe.i8tfoo9r@8teyjiwe.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-10-24 21:56:45'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: null
+    author: vr5wk3fe.i8tfoo9r@8teyjiwe.com
+    files:
+    - model.sql
+    - .prophecy/ide/model.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-24 21:56:46'
+sqlSnapshots:
+  .prophecy/metadata/sqlsnapshots/snapshot:
+    name: snapshot
+    schema: null
+    description: snapshot desc
+    author: vr5wk3fe.i8tfoo9r@8teyjiwe.com
+    files:
+    - snapshot.sql
+    - .prophecy/ide/snapshot.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-24 21:56:46'
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: vr5wk3fe.i8tfoo9r@8teyjiwe.com
+    files:
+    - macros.sql
+    - .prophecy/ide/macros.json
+    createdAt: '2024-10-24 21:56:46'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: vr5wk3fe.i8tfoo9r@8teyjiwe.com
+  createdAt: '2024-10-24 21:56:45'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
